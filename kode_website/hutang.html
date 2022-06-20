@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--gunakan span jika ingin merubah style sebuah kata di dalam kalimat-->
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <style>
+            body{font-family: 'Poppins';}
+            ::placeholder{font-family: 'Poppins';}
+            table{font-family: 'Poppins';}
+            p{font-family: 'Poppins';}
+        </style>
+        <link rel="stylesheet" href="hutang.css">
+        <title>Aplikasi Bayar Hutang</title>
+    </head>
+    <body>
+    <center>
+        <div class="frame">
+            <!--nama pengguna-->
+            <div class="home1">
+                <table class="home1-1">
+                    <tr>
+                        <td rowspan="2" style="width: 20%;"><a href=""><img src="assets/profile.png" class="icon"></a></td>
+                        <td >Halo, Carl Johnson</td>
+                        <td rowspan="2" style="width: 10%;"><img src="assets/notification.png" class="icon"></td>
+                    </tr>
+                    <tr>
+                        <td class="home1-2">49102847592</td>
+                    </tr>
+                </table>
+            </div>
+    
+            <!--total hutang piutang-->
+            <div class="home2">
+                <table class="home2-1">
+                    <tr>
+                        <td style="width: 40%;">
+                            <div class="home2-2">
+                                <p>Total Hutang</p>
+                                <p>Rp. 50.800.000,00</p>
+                            </div>
+                        </td>
+                        <td style="width: 40%;">
+                            <div class="home2-2">
+                                <p>Total Piutang</p>
+                                <p>Rp. 47.716.000,00</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    
+            <!--search-->
+            <div class="home3">
+                <table style="width: 100%; height: 100%;">
+                    <tr>
+                        <td style="width: 80%;">
+                            <div  style="align-items: center; justify-content: center; display: flex;">
+                                <form style="background-color: rgb(227, 227, 227); width: 90%;">
+                                    <img src="assets/search.png" style="text-align: center;vertical-align: middle; width: 25px;">
+                                    <input type="input" placeholder="Cari">
+                                </form>
+                            </div>
+                        </td>
+                        <td style="width: 20%;">
+                            <a href="add.html"><img src="assets/add.png" style="max-width: 60%; height: auto;"></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    
+            <div class="home4">
+                <!--list hutang 1-->
+                <div class="home4-1">
+                    <a href="detail_list_hutang.html"><table class="hutang">
+                        <tr>
+                            <td rowspan="2" id="td1"><img src="assets/profile.png"></td>
+                            <td id="td2">Kendl Johnson</td>
+                            <td rowspan="2" id="td3">Rp. 12.000.000</td>
+                        </tr>
+                        <tr>
+                            <td id="td2">428173038358</td>
+                        </tr>
+                    </table></a>
+                </div>
+                
+                <!--list hutang 2-->
+                <div class="home4-1">
+                    <a href=""><table class="hutang">
+                        <tr>
+                            <td rowspan="2" id="td1"><img src="assets/profile.png"></td>
+                            <td id="td2">Ryder Wilson</td>
+                            <td rowspan="2" id="td3">Rp. 2.500.000</td>
+                        </tr>
+                        <tr>
+                            <td id="td2">467120394682</td>
+                        </tr>
+                    </table></a>
+                </div>
+    
+                <!--list hutang 3-->
+                <div class="home4-1">
+                    <a href=""><table class="hutang">
+                        <tr>
+                            <td rowspan="2" id="td1"><img src="assets/profile.png"></td>
+                            <td id="td2">Eddie Pulaski</td>
+                            <td rowspan="2" id="td3">Rp. 20.000.000</td>
+                        </tr>
+                        <tr>
+                            <td id="td2">471023167821</td>
+                        </tr>
+                    </table></a>
+                </div>
+    
+                <!--list hutang 4-->
+                <div class="home4-1">
+                    <a href=""><table class="hutang">
+                        <tr>
+                            <td rowspan="2" id="td1"><img src="assets/profile.png"></td>
+                            <td id="td2">Cesar Vialpando</td>
+                            <td rowspan="2" id="td3">Rp. 7.850.000</td>
+                        </tr>
+                        <tr>
+                            <td id="td2">400122980455</td>
+                        </tr>
+                    </table></a>
+                </div>
+    
+                <!--list hutang hutang 5-->
+                <div class="home4-1">
+                    <a href=""><table class="hutang">
+                        <tr>
+                            <td rowspan="2" id="td1"><img src="assets/profile.png"></td>
+                            <td id="td2">Ken Rosenberg</td>
+                            <td rowspan="2" id="td3">Rp. 6.000.000</td>
+                        </tr>
+                        <tr>
+                            <td id="td2">477198022571</td>
+                        </tr>
+                    </table></a>
+                </div>
+    
+            </div>
+            
+            <!--navigasi bawah-->
+            <table class="nav_bawah">
+                <tr>
+                    <td><a href="home.html"><button><img src="assets/home.png"></button></a></td>
+                    <td><a href="inbox.html"><button><img src="assets/inbox.png"></button></a></td>
+                    <td><a href="hutang.html"><button style="padding: 5px; font-size: 18px;"  class="selected">hutang</button></a></td>
+                    <td><a href="piutang.html"><button style="padding: 5px; font-size: 18px;">piutang</button></a></td>
+                    <td><a href="settings.html"><button><img src="assets/settings.png"></button></a></td>
+                </tr>
+            </table>
+            
+        </div>
+    </center>
+    </body>
+    <footer>
+
+    </footer>
+</html>
