@@ -1,0 +1,60 @@
+.frame {
+    height: 736px;
+    width: 414px;
+    background-color:rgb(252, 246, 228);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.frame p{
+    margin:0;
+    padding:0;
+}
+
+.icon {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.home1{
+    width: auto;
+    height: 10%;
+}
+
+.home1 .home1-1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(241, 209, 176);
+}
+
+.token{
+    width: auto;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.token .no_token{
+    background-color: rgb(240, 239, 238);
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+
+.nav_bawah2{
+    width: 100%;
+    height: 8%;
+    position:absolute;
+    bottom: 0px;
+    background-color: rgb(227, 227, 227);
+}
+
+.nav_bawah2 button{
+    border: none;
+    background-color: rgba(74, 153, 169, 0)
+}
